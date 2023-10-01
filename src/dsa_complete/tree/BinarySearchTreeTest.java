@@ -14,6 +14,12 @@ public class BinarySearchTreeTest {
      boolean isAvailable=tree.contains(53);
      System.out.println(isAvailable);
      System.out.println(tree.breadthFirstSearch().toString());
+     System.out.println(tree.depthFirstPreorderTraversal().toString());
+     System.out.println(tree.depthFirstPostorderTraversal().toString());
+     System.out.println(tree.depthFirstInorderTraversal().toString());
+
+
+
 
 	}
 
