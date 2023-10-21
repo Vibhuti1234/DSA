@@ -17,7 +17,5 @@ public static void main(String[] args) {
 	stack.pop();
 	System.out.println();
 	stack.printStack();
-
-	
 }
 }
