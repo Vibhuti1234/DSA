@@ -14,6 +14,7 @@ public class HashTableTest {
      System.out.println(value);
      ArrayList<String> keys=table.getAllKeys();
      keys.forEach(System.out::print);
+     
 
 	}
 
